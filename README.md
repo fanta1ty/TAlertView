@@ -1,3 +1,4 @@
+![Logo](https://github.com/fanta1ty/TAlertView/blob/master/Logo/Logo.png)
 # TAlertView
 
 [![Swift 5.0](https://img.shields.io/badge/Swift-5.0-brightgreen)](https://developer.apple.com/swift/)
@@ -42,6 +43,8 @@ alert.showAlertInView(
     andButtons: []
 )
 ```
+![Alert](https://github.com/fanta1ty/TAlertView/blob/master/Screenshots/alert.png)
+
 - **withTitle (String):** You can leave the title as ```""``` or give it a ```String```.
 
 - **withSubtitle (String):** `TAlertView` always requires a subtitle, even if you want just a few words, add it here instead of the title (then leave the title as "").
@@ -70,6 +73,8 @@ alert.showAlertInView(
     andButtons: []
 )
 ```
+![Success](https://github.com/fanta1ty/TAlertView/blob/master/Screenshots/success.png)
+
 #### Caution
 
 ```Swift
@@ -84,6 +89,7 @@ alert.showAlertInView(
     andButtons: []
 )
 ```
+![Caution](https://github.com/fanta1ty/TAlertView/blob/master/Screenshots/caution.png)
 
 #### Warning
 
@@ -99,6 +105,7 @@ alert.showAlertInView(
     andButtons: []
 )
 ```
+![Warning](https://github.com/fanta1ty/TAlertView/blob/master/Screenshots/warning.png)
 
 ### Dismissing TAlertView
 
