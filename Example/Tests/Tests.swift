@@ -1,5 +1,5 @@
 import XCTest
-import TAlertView
+import TAlertViews
 
 class Tests: XCTestCase {
     

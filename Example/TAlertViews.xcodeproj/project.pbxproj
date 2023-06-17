@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		10F4D0413E797B7DAEDB87CB /* Pods_TAlertViews_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26F9177AC8C7A063F335DF1E /* Pods_TAlertViews_Tests.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		9594BE14399940F3D96343B4 /* Pods_TAlertView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC61C2B709B76AC44EF107CF /* Pods_TAlertView_Example.framework */; };
-		E373A3A250B6A0C49C3D0069 /* Pods_TAlertView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 261838C7ECD8343EA46B249B /* Pods_TAlertView_Tests.framework */; };
+		F644261C0281FBBE480E2E5E /* Pods_TAlertViews_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3174A87FD2AAB8D70C4BA947 /* Pods_TAlertViews_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,30 +23,30 @@
 			containerPortal = 607FACC81AFB9204008FA782 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 607FACCF1AFB9204008FA782;
-			remoteInfo = TAlertView;
+			remoteInfo = TAlertViews;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		261838C7ECD8343EA46B249B /* Pods_TAlertView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TAlertView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4AEF2DF91536D9E5788D6B72 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		4C3779479BFAA4ACEA8EA47D /* Pods-TAlertView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TAlertView_Tests.debug.xcconfig"; path = "Target Support Files/Pods-TAlertView_Tests/Pods-TAlertView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		4E16779C1821726C3B078FD6 /* Pods-TAlertView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TAlertView_Example.release.xcconfig"; path = "Target Support Files/Pods-TAlertView_Example/Pods-TAlertView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		5BB5643F2040ECB83C1FC566 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		607FACD01AFB9204008FA782 /* TAlertView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TAlertView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B6BA84E4F1686E53DFA38E3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		2176044A20619D73CA94F967 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		26F9177AC8C7A063F335DF1E /* Pods_TAlertViews_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TAlertViews_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3174A87FD2AAB8D70C4BA947 /* Pods_TAlertViews_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TAlertViews_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5103FC48DE30C26E8AC864B5 /* Pods-TAlertViews_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TAlertViews_Tests.debug.xcconfig"; path = "Target Support Files/Pods-TAlertViews_Tests/Pods-TAlertViews_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		5781C4AA90CD6B7F08327991 /* Pods-TAlertViews_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TAlertViews_Example.release.xcconfig"; path = "Target Support Files/Pods-TAlertViews_Example/Pods-TAlertViews_Example.release.xcconfig"; sourceTree = "<group>"; };
+		607FACD01AFB9204008FA782 /* TAlertViews_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TAlertViews_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		607FACE51AFB9204008FA782 /* TAlertView_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TAlertView_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		607FACE51AFB9204008FA782 /* TAlertViews_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TAlertViews_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		764F235214C3941DD7E4EEEA /* Pods-TAlertView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TAlertView_Tests.release.xcconfig"; path = "Target Support Files/Pods-TAlertView_Tests/Pods-TAlertView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		8CC895C3150D84F48B60067F /* TAlertView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TAlertView.podspec; path = ../TAlertView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		CC61C2B709B76AC44EF107CF /* Pods_TAlertView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TAlertView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F99672EE74F5A0BC013BCA4D /* Pods-TAlertView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TAlertView_Example.debug.xcconfig"; path = "Target Support Files/Pods-TAlertView_Example/Pods-TAlertView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		AB66075A2E0703C71898D65B /* Pods-TAlertViews_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TAlertViews_Example.debug.xcconfig"; path = "Target Support Files/Pods-TAlertViews_Example/Pods-TAlertViews_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		BF82F606AA9C746D92C6A2C1 /* TAlertViews.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TAlertViews.podspec; path = ../TAlertViews.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		FE3372D73768D3567037EBAE /* Pods-TAlertViews_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TAlertViews_Tests.release.xcconfig"; path = "Target Support Files/Pods-TAlertViews_Tests/Pods-TAlertViews_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9594BE14399940F3D96343B4 /* Pods_TAlertView_Example.framework in Frameworks */,
+				F644261C0281FBBE480E2E5E /* Pods_TAlertViews_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,44 +62,35 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E373A3A250B6A0C49C3D0069 /* Pods_TAlertView_Tests.framework in Frameworks */,
+				10F4D0413E797B7DAEDB87CB /* Pods_TAlertViews_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3FB48CE8F25FEFE66D76BCAF /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				CC61C2B709B76AC44EF107CF /* Pods_TAlertView_Example.framework */,
-				261838C7ECD8343EA46B249B /* Pods_TAlertView_Tests.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
-				607FACD21AFB9204008FA782 /* Example for TAlertView */,
+				607FACD21AFB9204008FA782 /* Example for TAlertViews */,
 				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
-				FBDDBB8CD4A4E15CE3DC01E9 /* Pods */,
-				3FB48CE8F25FEFE66D76BCAF /* Frameworks */,
+				CF49DECE2B2663187D26B302 /* Pods */,
+				D4A90E967BE6B2B23588B617 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		607FACD11AFB9204008FA782 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				607FACD01AFB9204008FA782 /* TAlertView_Example.app */,
-				607FACE51AFB9204008FA782 /* TAlertView_Tests.xctest */,
+				607FACD01AFB9204008FA782 /* TAlertViews_Example.app */,
+				607FACE51AFB9204008FA782 /* TAlertViews_Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		607FACD21AFB9204008FA782 /* Example for TAlertView */ = {
+		607FACD21AFB9204008FA782 /* Example for TAlertViews */ = {
 			isa = PBXGroup;
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
@@ -109,8 +100,8 @@
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
 			);
-			name = "Example for TAlertView";
-			path = TAlertView;
+			name = "Example for TAlertViews";
+			path = TAlertViews;
 			sourceTree = "<group>";
 		};
 		607FACD31AFB9204008FA782 /* Supporting Files */ = {
@@ -141,51 +132,60 @@
 		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				8CC895C3150D84F48B60067F /* TAlertView.podspec */,
-				5BB5643F2040ECB83C1FC566 /* README.md */,
-				4AEF2DF91536D9E5788D6B72 /* LICENSE */,
+				BF82F606AA9C746D92C6A2C1 /* TAlertViews.podspec */,
+				2176044A20619D73CA94F967 /* README.md */,
+				0B6BA84E4F1686E53DFA38E3 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
-		FBDDBB8CD4A4E15CE3DC01E9 /* Pods */ = {
+		CF49DECE2B2663187D26B302 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				F99672EE74F5A0BC013BCA4D /* Pods-TAlertView_Example.debug.xcconfig */,
-				4E16779C1821726C3B078FD6 /* Pods-TAlertView_Example.release.xcconfig */,
-				4C3779479BFAA4ACEA8EA47D /* Pods-TAlertView_Tests.debug.xcconfig */,
-				764F235214C3941DD7E4EEEA /* Pods-TAlertView_Tests.release.xcconfig */,
+				AB66075A2E0703C71898D65B /* Pods-TAlertViews_Example.debug.xcconfig */,
+				5781C4AA90CD6B7F08327991 /* Pods-TAlertViews_Example.release.xcconfig */,
+				5103FC48DE30C26E8AC864B5 /* Pods-TAlertViews_Tests.debug.xcconfig */,
+				FE3372D73768D3567037EBAE /* Pods-TAlertViews_Tests.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		D4A90E967BE6B2B23588B617 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3174A87FD2AAB8D70C4BA947 /* Pods_TAlertViews_Example.framework */,
+				26F9177AC8C7A063F335DF1E /* Pods_TAlertViews_Tests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		607FACCF1AFB9204008FA782 /* TAlertView_Example */ = {
+		607FACCF1AFB9204008FA782 /* TAlertViews_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "TAlertView_Example" */;
+			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "TAlertViews_Example" */;
 			buildPhases = (
-				791CBDCBF3580076E7EC572C /* [CP] Check Pods Manifest.lock */,
+				7CD30BCFF94E00761B91B248 /* [CP] Check Pods Manifest.lock */,
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				C606BD040A5A7CE6E249638B /* [CP] Embed Pods Frameworks */,
+				B81AC76EF3AC6B5A4098773F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = TAlertView_Example;
-			productName = TAlertView;
-			productReference = 607FACD01AFB9204008FA782 /* TAlertView_Example.app */;
+			name = TAlertViews_Example;
+			productName = TAlertViews;
+			productReference = 607FACD01AFB9204008FA782 /* TAlertViews_Example.app */;
 			productType = "com.apple.product-type.application";
 		};
-		607FACE41AFB9204008FA782 /* TAlertView_Tests */ = {
+		607FACE41AFB9204008FA782 /* TAlertViews_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "TAlertView_Tests" */;
+			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "TAlertViews_Tests" */;
 			buildPhases = (
-				E03CA6A79F92A811EA6BD6F8 /* [CP] Check Pods Manifest.lock */,
+				6FB9878673D537EA357B3DCF /* [CP] Check Pods Manifest.lock */,
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
@@ -195,9 +195,9 @@
 			dependencies = (
 				607FACE71AFB9204008FA782 /* PBXTargetDependency */,
 			);
-			name = TAlertView_Tests;
+			name = TAlertViews_Tests;
 			productName = Tests;
-			productReference = 607FACE51AFB9204008FA782 /* TAlertView_Tests.xctest */;
+			productReference = 607FACE51AFB9204008FA782 /* TAlertViews_Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -221,7 +221,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "TAlertView" */;
+			buildConfigurationList = 607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "TAlertViews" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -235,8 +235,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				607FACCF1AFB9204008FA782 /* TAlertView_Example */,
-				607FACE41AFB9204008FA782 /* TAlertView_Tests */,
+				607FACCF1AFB9204008FA782 /* TAlertViews_Example */,
+				607FACE41AFB9204008FA782 /* TAlertViews_Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -262,7 +262,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		791CBDCBF3580076E7EC572C /* [CP] Check Pods Manifest.lock */ = {
+		6FB9878673D537EA357B3DCF /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -277,51 +277,51 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-TAlertView_Example-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-TAlertViews_Tests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C606BD040A5A7CE6E249638B /* [CP] Embed Pods Frameworks */ = {
+		7CD30BCFF94E00761B91B248 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TAlertViews_Example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B81AC76EF3AC6B5A4098773F /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TAlertView_Example/Pods-TAlertView_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/TAlertView/TAlertView.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-TAlertViews_Example/Pods-TAlertViews_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/TAlertViews/TAlertViews.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TAlertView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TAlertViews.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TAlertView_Example/Pods-TAlertView_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E03CA6A79F92A811EA6BD6F8 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-TAlertView_Tests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TAlertViews_Example/Pods-TAlertViews_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -349,7 +349,7 @@
 /* Begin PBXTargetDependency section */
 		607FACE71AFB9204008FA782 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 607FACCF1AFB9204008FA782 /* TAlertView_Example */;
+			target = 607FACCF1AFB9204008FA782 /* TAlertViews_Example */;
 			targetProxy = 607FACE61AFB9204008FA782 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -475,10 +475,10 @@
 		};
 		607FACF01AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F99672EE74F5A0BC013BCA4D /* Pods-TAlertView_Example.debug.xcconfig */;
+			baseConfigurationReference = AB66075A2E0703C71898D65B /* Pods-TAlertViews_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = TAlertView/Info.plist;
+				INFOPLIST_FILE = TAlertViews/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -491,10 +491,10 @@
 		};
 		607FACF11AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4E16779C1821726C3B078FD6 /* Pods-TAlertView_Example.release.xcconfig */;
+			baseConfigurationReference = 5781C4AA90CD6B7F08327991 /* Pods-TAlertViews_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = TAlertView/Info.plist;
+				INFOPLIST_FILE = TAlertViews/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -507,7 +507,7 @@
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4C3779479BFAA4ACEA8EA47D /* Pods-TAlertView_Tests.debug.xcconfig */;
+			baseConfigurationReference = 5103FC48DE30C26E8AC864B5 /* Pods-TAlertViews_Tests.debug.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
@@ -524,13 +524,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TAlertView_Example.app/TAlertView_Example";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TAlertViews_Example.app/TAlertViews_Example";
 			};
 			name = Debug;
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 764F235214C3941DD7E4EEEA /* Pods-TAlertView_Tests.release.xcconfig */;
+			baseConfigurationReference = FE3372D73768D3567037EBAE /* Pods-TAlertViews_Tests.release.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
@@ -543,14 +543,14 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TAlertView_Example.app/TAlertView_Example";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TAlertViews_Example.app/TAlertViews_Example";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "TAlertView" */ = {
+		607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "TAlertViews" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				607FACED1AFB9204008FA782 /* Debug */,
@@ -559,7 +559,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "TAlertView_Example" */ = {
+		607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "TAlertViews_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				607FACF01AFB9204008FA782 /* Debug */,
@@ -568,7 +568,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "TAlertView_Tests" */ = {
+		607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "TAlertViews_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				607FACF31AFB9204008FA782 /* Debug */,

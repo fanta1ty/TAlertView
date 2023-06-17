@@ -1,12 +1,13 @@
-import TAlertView
 import UIKit
+import TAlertViews
 
 class ViewController: UIViewController {
+
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         let alert = TAlertView()
-        alert.makeAlertTypeCaution()
+        alert.makeAlertTypeSuccess()
         alert.showAlertInView(
             view: self,
             withTitle: "Alert Title",
@@ -17,3 +18,4 @@ class ViewController: UIViewController {
         )
     }
 }
+
