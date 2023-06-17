@@ -1,0 +1,11 @@
+use_frameworks!
+
+platform :ios, '12.0'
+
+target 'TAlertView_Example' do
+  pod 'TAlertView', :path => '../'
+
+  target 'TAlertView_Tests' do
+    inherit! :search_paths
+  end
+end
